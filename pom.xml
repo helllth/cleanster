@@ -63,6 +63,7 @@
                         </manifest>
                          <manifestEntries>
                             <Application-Name>Cleanster</Application-Name>                           
+                            <Permissions>all-permissions</Permissions>                           
                         </manifestEntries>
                     </archive>
                 </configuration>
