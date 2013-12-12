@@ -33,7 +33,7 @@
         <developerConnection>scm:gitigit@github.com:helllth/cleanster.git</developerConnection>
         <url>https://github.com/helllth/cleanster</url>
     </scm>
-
+    
     <repositories>
         <repository>
             <id>cismet-repo</id>
@@ -50,4 +50,24 @@
             </snapshots>
         </repository>
     </repositories>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>de.cismet.learning.CleansterTest</mainClass>
+                        </manifest>
+                    </archive>
+                    <manifestEntries>
+                        <Application-Name>Cleanster</Application-Name>
+                    </manifestEntries>
+                </configuration>
+            </plugin>        
+        </plugins>
+    </build>
+    
 </project>
