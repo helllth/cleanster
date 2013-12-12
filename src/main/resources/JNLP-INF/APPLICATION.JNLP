@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://flexo.cismet.de/~thell/cleanster/" href="cleanster.jnlp">
+    <information>
+        <title>Webstart Sign Test</title>
+        <vendor>cismet GmbH</vendor>
+        <description>none</description>
+        <description kind="short"></description>
+        <homepage href="http://www.cismet.de"/>
+		<offline-allowed/>				
+    </information>
+	
+    <resources>
+        <j2se version="1.7+" />
+		<property name="tester" value="Jawolll" />
+		<property name="jnlp.secondtester" value="jnlp.so.gehts" />
+
+		<jar href="./cleanster-1.0-SNAPSHOT.jar"/>
+    </resources>	
+	<security>
+    <all-permissions/>
+	</security>
+    <application-desc main-class="de.cismet.learning.CleansterTest">
+    </application-desc>
+</jnlp>
