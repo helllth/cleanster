@@ -61,10 +61,10 @@
                         <manifest>
                             <mainClass>de.cismet.learning.CleansterTest</mainClass>
                         </manifest>
+                         <manifestEntries>
+                            <Application-Name>Cleanster</Application-Name>                           
+                        </manifestEntries>
                     </archive>
-                    <manifestEntries>
-                        <Application-Name>Cleanster</Application-Name>
-                    </manifestEntries>
                 </configuration>
             </plugin>        
         </plugins>
